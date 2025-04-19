@@ -3,7 +3,7 @@ import time
 import json  # Для форматирования JSON
 from datetime import datetime
 
-headers = {"X-Token": "uDn5bBm6IEE6T3FN9XM2uyr8Ce7BqJPvyDUDe_PmdgoU"}
+headers = {"X-Token": "Ваш_токен_доступа"}  # Замените на ваш токен доступа
 url = "https://api.monobank.ua/personal/statement/{account}/{from_date}/{to_date}" # URL для получения транзакций
 
 try:
